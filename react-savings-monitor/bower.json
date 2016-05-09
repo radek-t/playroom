@@ -1,0 +1,18 @@
+{
+  "name": "react-savings-monitor",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Radek-T"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/radek-t/playroom",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
