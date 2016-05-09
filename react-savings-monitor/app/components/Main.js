@@ -1,9 +1,19 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var InvestmentsGrid = require('./InvestmentsGrid');
+var InvestmentsSummaryBox = require('./InvestmentsSummaryBox');
 
 var Main = React.createClass({
-    render: function() {
-        return (<h1>React says hi</h1>);
+    render() {
+        return (
+            <div>
+                <h1>Savings monitor</h1>
+                <hr />
+                <InvestmentsSummaryBox count='3' amount='7500' income='60.75' />
+                <hr />
+                <InvestmentsGrid />
+            </div>
+            );
     }
 });
 
